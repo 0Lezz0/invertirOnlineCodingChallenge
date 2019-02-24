@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Languages>
+  <Ingles>
+    <Cuadrado>Square</Cuadrado>
+    <Cuadrado_plural>Squares</Cuadrado_plural>
+    <Triangulo_Equilatero>Triangle</Triangulo_Equilatero>
+    <Triangulo_Equilatero_plural>Triangles</Triangulo_Equilatero_plural>
+    <Circulo>Circle</Circulo>
+    <Circulo_plural>Circle</Circulo_plural>
+    <Trapecio>Trapezoid</Trapecio>
+    <Trapecio_plural>Trapezoids</Trapecio_plural>
+    <Rectangulo>Rectangle</Rectangulo>
+    <Rectangulo_plural>Rectangles</Rectangulo_plural>
+    <Header><h1>Shapes report</h1></Header>
+    <Header_vacio><h1>Empty list of shapes!</h1></Header_vacio>
+    <Line>{0} {1} | Area {2} | Perimeter {3} <br/></Line>
+    <Footer>TOTAL:<br/>{0} shapes Perimeter {1} Area {2}</Footer>
+    <Default>Word not found</Default>
+  </Ingles>
+  <Italiano>
+    <Cuadrado>Piazza</Cuadrado>
+    <Cuadrado_plural>Piazza</Cuadrado_plural>
+    <Triangulo_Equilatero>Triangolo</Triangulo_Equilatero>
+    <Triangulo_Equilatero_plural>Triangoli</Triangulo_Equilatero_plural>
+    <Circulo>Cerchio</Circulo>
+    <Circulo_plural>Cerchi</Circulo_plural>
+    <Trapecio>Trapezio</Trapecio>
+    <Trapecio_plural>Trapezi</Trapecio_plural>
+    <Rectangulo>Rettangolo</Rectangulo>
+    <Rectangulo_plural>Rettangoli</Rectangulo_plural>
+    <Default>parola non trovata</Default>
+    <Header><h1>Rapporto di figura</h1></Header>
+    <Header_vacio><h1>Elenco di forme vuote!</h1></Header_vacio>
+    <Line>{0} {1} | Area {2} | Perimetro {3} <br/></Line>
+    <Footer>TOTALE:<br/>{0} figura Perimetro {1} Area {2}</Footer>
+  </Italiano>
+  <Castellano>
+    <Cuadrado>Cuadrado</Cuadrado>
+    <Cuadrado_plural>Cuadrados</Cuadrado_plural>
+    <Triangulo_Equilatero>Triángulo</Triangulo_Equilatero>
+    <Triangulo_Equilatero_plural>Triángulos</Triangulo_Equilatero_plural>
+    <Circulo>Círculo</Circulo>
+    <Circulo_plural>Círculos</Circulo_plural>
+    <Trapecio>Trapecio</Trapecio>
+    <Trapecio_plural>Trapecios</Trapecio_plural>
+    <Rectangulo>Rectángulo</Rectangulo>
+    <Rectangulo_plural>Rectángulos</Rectangulo_plural>
+    <Header><h1>Reporte de Formas</h1></Header>
+    <Header_vacio><h1>Lista vacía de formas!</h1></Header_vacio>
+    <Line>{0} {1} | Area {2} | Perimetro {3} <br/></Line>
+    <Footer>TOTAL:<br/>{0} formas Perimetro {1} Area {2}</Footer>
+    <Default>Palabra no encontrada</Default>
+  </Castellano>
+</Languages>
