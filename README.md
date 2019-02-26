@@ -16,7 +16,11 @@ Al mismo tiempo, encontramos muy díficil el poder agregar o bien una nueva form
 
 Luego de analizar el problema por un rato, decidí encarar la solución de la siguiente forma:  
 
-    - Primero...
-    - Segundo...
+    - Utilizar una interface (`IFormaGeometrica`) para modelar un comportamiento general a todas las formas.
+    - Crear clases específicas para cada figura, esto es especialmente necesario para resolver formas más complejas (un rectángulo no puede definirse solo con un lado, por ejemplo)
+    - La interface nos permite agrupar distintas formas, bajo un mismo estandar (permitiendo, entre muchas cosas más, agrupar todos los distintos tipos de formas en una misma lista)
+    - Me resulto útil (a pesar de su mantenimiento) utilizar un enumerador para "listar" las figuras disponibles.
+    - Junto a una pequeña clase, el enumerador y un dictionary, resolví el reporte sin neceisdad de conocer a priori las formas disponibles
+    - Para el manejo de las traducciones, utilice una clase intermedia (`Translator`) y un archivo de configuración (un sencillo XML); Esto nos permite una flexibilidad muy alta para el manejo de traducciones y nuevos idiomas (por ejemplo, con solo actualizar el XML podemos tener un nuevo idioma funcionando en la aplicación, sin necesidad de tocar código)
 
-**¡¡Buena suerte!!**
+**¡¡Gracias por la oportunidad!!**
